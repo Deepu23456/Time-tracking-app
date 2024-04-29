@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link
+    href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+    rel="stylesheet" />
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./scripts.js" defer type="module"></script>
+
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="profile-container">
+        <div id="profile">
+          <div class="profile-image">
+            <img src="./images/image-jeremy.png" alt="Jeremy profile picture">
+          </div>
+          <div class="profile-name">
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="switch-area">
+          <ul>
+            <li class="li" id="daily">Daily</li>
+            <li class="li active" id="weekly">Weekly</li>
+            <li class="li" id="monthly">Monthly</li>
+          </ul>
+        </div>
+      </div>
+      <div class="data-info">
+        <div class="upper-info">
+          <div class="work-report">
+            <div class="work-svg work">
+              <img src="./images/icon-work.svg" alt="work icon">
+            </div>
+            <div class="report" id="work">
+              <div class="report-name">
+                <h4>WORK</h4>
+                <span>...</span>
+              </div>
+              <div class="hours-data">
+                <h1 class="work-h1"></h1>
+                <p class="work-p"></p>
+              </div>
+            </div>
+          </div>
+          <div class="work-report">
+            <div class="work-svg play">
+              <img src="./images/icon-play.svg" alt="work icon">
+            </div>
+            <div class="report" id="play">
+              <div class="report-name">
+                <h4>Play</h4>
+                <span>...</span>
+              </div>
+              <div class="hours-data">
+                <h1 class="play-h1"></h1>
+                <p class="play-p"></p>
+              </div>
+            </div>
+          </div>
+          <div class="work-report">
+            <div class="work-svg study">
+              <img src="./images/icon-study.svg" alt="work icon">
+            </div>
+            <div class="report" id="study">
+              <div class="report-name">
+                <h4>Study</h4>
+                <span>...</span>
+              </div>
+              <div class="hours-data">
+                <h1 class="study-h1"></h1>
+                <p class="study-p"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lower-info">
+          <div class="work-report">
+            <div class="work-svg exercise">
+              <img src="./images/icon-exercise.svg" alt="work icon">
+            </div>
+            <div class="report" id="exercise">
+              <div class="report-name">
+                <h4>Exercise</h4>
+                <span>...</span>
+              </div>
+              <div class="hours-data">
+                <h1 class="exercise-h1"></h1>
+                <p class="exercise-p"></p>
+              </div>
+            </div>
+          </div>
+          <div class="work-report">
+            <div class="work-svg social">
+              <img src="./images/icon-social.svg" alt="work icon">
+            </div>
+            <div class="report" id="social">
+              <div class="report-name">
+                <h4>Social</h4>
+                <span>...</span>
+              </div>
+              <div class="hours-data">
+                <h1 class="social-h1"></h1>
+                <p class="social-p"></p>
+              </div>
+            </div>
+          </div>
+          <div class="work-report">
+            <div class="work-svg self-care">
+              <img src="./images/icon-self-care.svg" alt="work icon">
+            </div>
+            <div class="report" id="self-care">
+              <div class="report-name">
+                <h4>Self Care</h4>
+                <span>...</span>
+              </div>
+              <div class="hours-data">
+                <h1 class="selfcare-h1"></h1>
+                <p class="selfcare-p"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Deepu23456">Deepika Singh</a>.
+    </div>
+  </main>
+</body>
+
+</html>
+
